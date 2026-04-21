@@ -21,7 +21,7 @@ cp -r ~/.config/caelestia/. "$DOTFILES_DIR/caelestia-config/"
 # ─────────────────────────────────────────
 echo "📦 Backing up Caelestia source..."
 mkdir -p "$DOTFILES_DIR/caelestia-source"
-cp -r ~/.local/share/caelestia/. "$DOTFILES_DIR/caelestia-source/"
+rsync -a --exclude='.git' ~/.local/share/caelestia/ "$DOTFILES_DIR/caelestia-source/"
 
 # ─────────────────────────────────────────
 # 3. Quickshell (~/.config/quickshell/)
