@@ -263,7 +263,18 @@
       "figma-linux",
       "postman",
       "obsidian",
-      "antigravity"
+      "antigravity",
+      "discord",
+      "net.lutris.Lutris",
+      "virt-manager",
+      "steam",
+      "org.kde.krita",
+      "Waydroid",
+      "Zoom",
+      "gimp",
+      "affinity",
+      "winboat",
+      "proton.vpn.app.gtk"
     ],
     "hiddenApps": [
       "waydroid.com.google.android.apps.messaging",
