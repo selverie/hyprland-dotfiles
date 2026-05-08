@@ -42,7 +42,7 @@ if [ -d "$THEME_DIR/quickshell" ]; then
 fi
 
 # Config tambahan
-for dir in cava fuzzel gtk-3.0 gtk-4.0 autostart spicetify; do
+for dir in cava fuzzel gtk-3.0 gtk-4.0 autostart spicetify hypr; do
     if [ -d "$THEME_DIR/$dir" ]; then
         mkdir -p ~/.config/$dir
         cp -r "$THEME_DIR/$dir/." ~/.config/$dir/

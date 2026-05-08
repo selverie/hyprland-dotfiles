@@ -44,7 +44,7 @@ fi
 # ─────────────────────────────────────────
 echo "📦 Backing up extra configs..."
 
-for dir in cava fuzzel gtk-3.0 gtk-4.0 autostart spicetify; do
+for dir in cava fuzzel gtk-3.0 gtk-4.0 autostart spicetify hypr; do
     if [ -d ~/.config/$dir ]; then
         mkdir -p "$THEME_DIR/$dir"
         cp -r ~/.config/$dir/. "$THEME_DIR/$dir/"
